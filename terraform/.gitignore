@@ -1,0 +1,41 @@
+# Bytecode files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# SQLite database
+db.sqlite3
+
+# Terraform state and config
+*.tfstate*
+.terraform/
+
+# Python packaging
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+downloads/
+develop-eggs/
+.Python
+
+# Logs and coverage
+pip-log.txt
+htmlcov/
+.tox/
+
+# Django-specific
+local_settings.py
+
+# Flask-specific
+instance/
+
+# VS Code settings (if applicable)
+.vscode/
+
+# macOS system files
+.DS_Store
